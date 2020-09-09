@@ -342,7 +342,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 --------------------------------------------------------------*/
 /* Custom Navmenu */
 .custom-navmenu {
-  background: #ff00d2;
+ background: rgb(78,50,78);
+background: linear-gradient(144deg, rgba(78,50,78,1) 0%, rgba(121,9,103,1) 27%, rgba(255,0,210,1) 100%); 
 }
 
 .custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {
