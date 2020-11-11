@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include 'site_header.html';?>
 
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
