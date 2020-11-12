@@ -17,7 +17,7 @@
 
   <title>Thru Mike's Len's - Freelance Web Developer, Graphic Designer &amp; Photographer - Mahone Bay, Nova Scotia</title>
   <meta content="Freelance web developer, graphic designer & photographer that specailizes in working with entrepreneurs and small businesses to drive revenue." name="description">
-  <meta content="michael broley, mike broley, photographer halifax, photographer dartmouth, photographer mahone bay, photographer luenenberg, web developer halifax, web developer mahone bay, web developer luenenberg, graphic design halifax, graphic design dartmouth, graphic design luenenberg, graphic design freelance" name="keywords">
+  <meta content="michael broley, mike broley, photographer halifax, photographer dartmouth, photographer mahone bay, photographer luenenberg, web developer halifax, web developer mahone bay, web developer luenenberg, graphic design halifax, graphic design dartmouth, graphic design luenenberg, graphic design freelancer, best canadian photographer, awesome canadian developer" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -41,7 +41,7 @@
 <body>
 
   <!-- ======= Navbar ======= -->
-  <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
+ <!-- <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
     <div class="container py-2 py-md-5">
       <div class="row align-items-start">
         <div class="col-md-2">
@@ -77,15 +77,13 @@
       </div>
 
     </div>
-  </div>
+  </div> -->
 
   <nav class="navbar navbar-light custom-navbar">
     <div class="container">
       <a class="navbar-brand" href="index.html"><img class="img-fluid" src="assets/img/thru mikes lens logo 2020.png" alt="Thru Mike's Lens"></a>
 
-      <a href="#" class="burger" data-toggle="collapse" data-target="#main-navbar">
-        <span></span>
-      </a>
+     <!-- <a href="#" class="burger" data-toggle="collapse" data-target="#main-navbar"> -->
 
     </div>
   </nav>
@@ -628,6 +626,89 @@
     </section><!-- End Testimonials Section -->
 
   </main><!-- End #main -->
+	
+	<!-- ======== Contact ======== -->
+	
+	<section class="section pb-5">
+      <div class="container">
+
+		  <div class="row justify-content-center text-center mb-4">
+          <div class="col-5">
+            <h3 class="h3 heading">Connect With Me</h3>
+          </div>
+        </div>
+        <div class="row mb-5 align-items-end">
+          <div class="col-md-6" data-aos="fade-up">
+            <p class="mb-0">If you would like me to reach out please use the form below. You are also welcome to call, text or email me anytime!
+            </p>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 mb-5 mb-md-0" data-aos="fade-up">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <label for="name">Email</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-12 form-group">
+                  <label for="name">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-12 form-group">
+                  <label for="name">Message</label>
+                  <textarea class="form-control" name="message" cols="30" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                  <div class="validate"></div>
+                </div>
+
+                <div class="col-md-12 mb-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+
+                <div class="col-md-6 form-group">
+                  <input type="submit" class="readmore d-block w-100" value="Send Message">
+                </div>
+              </div>
+
+            </form>
+
+          </div>
+
+          <div class="col-md-4 ml-auto order-2" data-aos="fade-up">
+            <ul class="list-unstyled">
+              <li class="mb-3">
+                <strong class="d-block mb-1">Address</strong>
+                <span>173 Hyson Point Road, Mahone Bay, Nova Scotia</span>
+              </li>
+              <li class="mb-3">
+                <strong class="d-block mb-1">Phone / SMS</strong>
+                <span>+1 647 298 2445</span>
+              </li>
+              <li class="mb-3">
+                <strong class="d-block mb-1">Email</strong>
+                <span>me@thrumikeslens.ca</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
 
   <!-- ======= Footer ======= -->
   <footer class="footer" role="contentinfo">
