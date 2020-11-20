@@ -1,7 +1,8 @@
 {
-  "background_color": "white",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
   "description": "The portfolio of Michael Broley",
-  "display": "fullscreen",
+  "display": "standalone",
   "icons": [
     {
       "src": "assets/img/icon.png",
